@@ -1,0 +1,145 @@
+html {
+	background: url('../img/fat-albert.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.tabContainer{	
+	position:absolute;
+	margin-top:50px;
+	width: 100%;
+}
+.tabControl{
+	position: relative;
+    top: 0px;
+    margin: 0;
+    padding: 0;
+    font: inherit;
+    font-size: 100%;    
+    background: rgba(0,0,0,0.72);
+    background-clip: padding-box;
+    outline: none;
+    width: 100%;    
+    box-shadow: 1px 3px 12px #97A3BB;
+}
+.row-centered {
+	text-align:center;
+}
+.col-centered {
+	display:inline-block;
+	float:none;
+	text-align:left;
+	margin-right:-4px;
+}
+.flightSearchForm, .hotelSearchForm{
+	margin-top: 10px;
+    display: block;
+    font: 300 16px/22px 'Roboto Condensed', sans-serif;
+	color: grey;
+}
+.brandLogo{
+	margin-top: -11px;
+	width: 45px;
+}
+
+.carousel-control.left, .carousel-control.right {
+	background-image:none;
+}
+.holidayOffers{
+	width:45px;
+}
+
+.carousel-inner {
+  border-radius: 15px;
+}
+
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  z-index: 15;
+  margin: 0;
+  padding: 0 25px 25px 0;
+  text-align: right;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none;
+}
+@media (min-width: 992px ) {
+	.carousel-inner .active.left {
+		left: -25%;
+	}
+	.carousel-inner .next {
+		left:  25%;
+	}
+	.carousel-inner .prev {
+		left: -25%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px ) {
+	.carousel-inner .active.left {
+		left: -33.3%;
+	}
+	.carousel-inner .next {
+		left:  33.3%;
+	}
+	.carousel-inner .prev {
+		left: -33.3%;
+	}
+	.active > div:first-child {
+		display:block;
+	}
+	.active > div:first-child + div {
+		display:block;
+	}
+	.active > div:last-child {
+		display:none;
+	}
+}
+
+@media (max-width: 767px) {
+	.carousel-inner .active.left {
+		left: -100%;
+	}
+	.carousel-inner .next {
+		left:  100%;
+	}
+	.carousel-inner .prev {
+		left: -100%;
+	}
+	.active > div {
+		display:none;
+	}
+	.active > div:first-child {
+		display:block;
+	}
+}
+.ui-autocomplete {
+    max-height: 200px;
+    overflow-y: auto;
+    /* prevent horizontal scrollbar */
+    overflow-x: hidden;
+    border:1px solid #222;
+    position:absolute;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
